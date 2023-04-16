@@ -1,97 +1,185 @@
-,nome,porcentagem_desconto,preco,tipo,sistema
-0,darkest dungeon,0,45.99,padrao,"steam,windows,linux,mac"
-1,resident evil 2  biohazard re2  deluxe edition,76,25.99,padrao,"steam,windows"
-2,enter the gungeon,0,27.99,padrao,"steam,windows,linux,mac"
-3,resident evil 7 biohazard gold edition,75,20.99,padrao,"steam,windows"
-4,lego harry potter years 1 4,0,89.99,padrao,"steam,windows"
-5,mad max,0,89.99,padrao,"steam,windows,linux,mac"
-6,sid meiers civilization v the complete edition,0,99.99,padrao,"steam,mac"
-7,resident evil 3,76,30.49,padrao,"steam,windows"
-8,resident evil hd remaster,75,9.99,padrao,"steam,windows"
-9,gris,0,32.99,padrao,"steam,windows,mac"
-10,lego marvel super heroes,0,89.99,padrao,"steam,windows"
-11,lego city undercover,0,89.99,padrao,"steam,windows"
-12,resident evil village,54,63.99,padrao,"steam,windows"
-13,street fighter v,75,9.99,padrao,"steam,windows"
-14,resident evil 2  biohazard re2,76,20.99,padrao,"steam,windows"
-15,metal gear solid v ground zeroes,0,36.99,padrao,"steam,windows"
-16,hotline miami 2 wrong number  digital special edition,0,34.99,padrao,"steam,windows,linux,mac"
-17,ni no kuni ii revenant kingdom  the princes edition,0,219.9,padrao,"steam,windows"
-18,wrc 10 fia world rally championship,0,109.99,padrao,"steam,windows"
-19,euro truck simulator 2,75,9.99,padrao,"steam,windows,linux"
-20,middleearth shadow of mordor  game of the year edition,0,89.99,padrao,"steam,windows,linux,mac"
-21,naruto shippuden ultimate ninja storm revolution,0,55.99,padrao,"steam,windows"
-22,dayz,0,119.99,padrao,"steam,windows"
-23,darkest dungeon the crimson court,0,19.99,dlc,"steam,windows,linux,mac"
-24,devil may cry 5 + vergil,68,27.99,padrao,"steam,windows"
-25,gta online great white shark cash card,0,35.99,padrao,windows
-26,for the king double keys,0,75.98,padrao,"steam,windows,mac"
-27,ultra street fighter iv,87,7.79,padrao,"steam,windows"
-28,devil may cry hd collection,68,21.99,padrao,"steam,windows"
-29,frostpunk,0,88.99,padrao,"steam,windows"
-30,frostpunk  season pass,0,78.02,dlc,"steam,windows"
-31,dont starve together,0,27.99,padrao,"steam,windows,linux,mac"
-32,the legend of heroes trails in the sky the 3rd,0,55.99,padrao,"steam,windows"
-33,katana zero,0,28.99,padrao,"steam,windows,mac"
-34,xbox  cartao presente digital 5 reais,0,5.0,padrao,windows
-35,dying light definitive edition,0,124.99,padrao,"steam,windows,linux,mac"
-36,cult of the lamb,0,64.95,padrao,"steam,windows,mac"
-37,resident evil 4,12,218.99,padrao,"steam,windows"
-38,pro cycling manager 2022,0,75.49,padrao,"steam,windows"
-39,devil may cry 4 ediçao especial,72,13.99,padrao,"steam,windows"
-40,middleearth shadow of war,0,229.99,padrao,"steam,windows"
-41,resident evil village gold edition,43,96.0,padrao,"steam,windows"
-42,skul the hero slayer,0,37.99,padrao,"steam,windows,linux,mac"
-43,dmc devil may cry,76,13.99,padrao,"steam,windows"
-44,hotline miami 2 wrong number,0,24.99,padrao,"steam,windows,linux,mac"
-45,resident evil 6,75,21.24,padrao,"steam,windows"
-46,xbox  cartao presente digital 200 reais,0,200.0,padrao,windows
-47,the last of us  part i,10,223.99,padrao,"steam,windows"
-48,the lego ninjago movie video game,0,89.99,padrao,"steam,windows"
-49,mortal kombat 11,0,229.99,padrao,"steam,windows"
-50,resident evil revelations 2 deluxe edition,60,29.99,padrao,"steam,windows"
-51,legend of kay anniversary,0,36.99,padrao,"steam,windows,mac"
-52,motogp 21,0,93.99,padrao,"steam,windows"
-53,xbox game pass ultimate  1 mes,0,44.99,padrao,windows
-54,the legend of heroes trails in the sky,0,36.99,padrao,"steam,windows"
-55,darkest dungeon color of madness,0,10.89,dlc,"steam,windows,linux,mac"
-56,the legend of heroes trails of cold steel,0,72.99,padrao,"steam,windows"
-57,riot points  gift card digital 100 reais,0,100.0,padrao,"windows,mac"
-58,naruto storm 4 road to boruto expansion,0,36.99,dlc,"steam,windows"
-59,scribblenauts unlimited,0,89.99,padrao,"steam,windows"
-60,lego marvel super heroes 2 deluxe edition,0,159.99,padrao,"steam,windows"
-61,ace combat 7 skies unknown,0,159.0,padrao,"steam,windows"
-62,metal gear solid v the definitive experience,0,98.99,padrao,"steam,windows"
-63,mortal kombat xl,0,129.99,pacote,"steam,windows"
-64,the universim,20,44.79,padrao,"steam,windows,linux,mac"
-65,crypt of the necrodancer,0,27.99,padrao,"steam,windows,linux,mac"
-66,darkest dungeon the shieldbreaker,0,8.69,dlc,"steam,windows,linux,mac"
-67,the legend of heroes trails of cold steel ii,0,72.99,padrao,"steam,windows"
-68,s.t.a.l.k.e.r. shadow of chernobyl,70,10.49,padrao,"steam,windows"
-69,tales of symphonia,0,36.99,padrao,"steam,windows"
-70,soulcalibur vi  deluxe edition,0,259.9,padrao,"steam,windows"
-71,resident evil 4  deluxe edition,12,262.99,padrao,"steam,windows"
-72,euro truck simulator,80,2.09,padrao,"steam,windows,mac"
-73,dragon ball xenoverse 2,0,159.9,padrao,"steam,windows"
-74,elden ring,0,249.9,padrao,"steam,windows"
-75,quantum break,0,72.99,padrao,"steam,windows"
-76,lego harry potter years 57,0,89.99,padrao,"steam,windows"
-77,castlevania lords of shadow  ultimate edition,0,49.99,padrao,"steam,windows"
-78,the legend of heroes trails in the sky sc,0,69.99,padrao,"steam,windows"
-79,castlevania lords of shadow 2,0,72.99,padrao,"steam,windows"
-80,tom clancys rainbow six  siege  standard edition,0,59.99,padrao,windows
-81,my friend pedro,0,37.99,padrao,"steam,windows"
-82,trailmakers,0,47.49,padrao,"steam,windows"
-83,xbox  cartao presente digital 100 reais,0,100.0,padrao,windows
-84,mortal kombat 11 ultimate,0,279.99,padrao,"steam,windows"
-85,scribblenauts unmasked a dc comics adventures,0,36.99,padrao,"steam,windows"
-86,resident evil revelations,77,13.79,padrao,"steam,windows"
-87,lego the lord of the rings,0,89.99,padrao,"steam,windows"
-88,dragons dogma dark arisen,84,11.99,padrao,"steam,windows"
-89,dragon ball fighterz  fighterz pass,0,89.9,dlc,"steam,windows"
-90,xbox  cartao presente digital 50 reais,0,50.0,padrao,windows
-91,riot points  gift card digital 50 reais,0,50.0,padrao,"windows,mac"
-92,hotline miami,0,16.99,padrao,"steam,windows,linux,mac"
-93,men of war assault squad 2  war chest edition,77,32.04,padrao,"steam,windows"
-94,naruto shippuden ultimate ninja storm 4  road to boruto,0,122.16,padrao,"steam,windows"
-95,naruto shippuden ultimate ninja storm 4,0,97.0,padrao,"steam,windows"
+,nome,porcentagem_desconto,preco,tipo,sistema,plataforma
+0,mario kart™ 8 deluxe,0,299.0,padrao,nintendo switch,nintendo
+1,minecraft java and bedrock edition,0,129.0,padrao,"windows,linux,mac",pc
+2,men of war assault squad 2  war chest edition,77,32.04,padrao,"steam,windows",pc
+3,naruto shippuden ultimate ninja storm 4  road to boruto,0,122.16,padrao,"steam,windows",pc
+4,naruto shippuden ultimate ninja storm 4,0,97.0,padrao,"steam,windows",pc
+5,trail out,0,37.99,padrao,"steam,windows",pc
+6,sword art online hollow realization deluxe edition,0,90.99,padrao,"steam,windows",pc
+7,s.t.a.l.k.e.r. call of pripyat,70,10.49,padrao,"steam,windows",pc
+8,crunchyroll mega fan  1 mes,0,19.99,padrao,"windows,linux,mac,ios,android","mobile,pc"
+9,171,0,59.99,padrao,"steam,windows",pc
+10,f1 manager 2022,80,19.99,padrao,"steam,windows",pc
+11,middleearth shadow of war  expansion pass,0,69.99,dlc,"steam,windows",pc
+12,arma 3,0,99.99,padrao,"steam,windows",pc
+13,monster hunter world,52,32.99,padrao,"steam,windows",pc
+14,wildfrost,13,51.99,padrao,"steam,windows",pc
+15,bagdex  standard,0,35.0,prevenda,windows,pc
+16,dayz livonia,0,24.99,dlc,"steam,windows",pc
+17,resident evil village  winters expansion,31,46.0,dlc,"steam,windows",pc
+18,crunchyroll fan  1 mes,0,14.99,padrao,"linux,mac,ios,android","mobile,pc"
+19,xbox  cartao presente digital 10 reais,0,10.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+20,middleearth shadow of war,0,229.99,padrao,"steam,windows",pc
+21,mortal kombat 11,0,229.99,padrao,"steam,windows",pc
+22,resident evil revelations 2 deluxe edition,60,29.99,padrao,"steam,windows",pc
+23,lego marvel super heroes 2 deluxe edition,0,159.99,padrao,"steam,windows",pc
+24,ace combat 7 skies unknown,0,159.0,padrao,"steam,windows",pc
+25,resident evil 4  deluxe edition,12,262.99,padrao,"steam,windows",pc
+26,metal gear solid v the definitive experience,0,98.99,padrao,"steam,windows",pc
+27,euro truck simulator,80,2.09,padrao,"steam,windows,mac",pc
+28,my friend pedro,0,37.99,padrao,"steam,windows",pc
+29,darkest dungeon,0,45.99,padrao,"steam,windows,linux,mac",pc
+30,trailmakers,0,47.49,padrao,"steam,windows",pc
+31,xbox  cartao presente digital 100 reais,0,100.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+32,resident evil 2  biohazard re2  deluxe edition,76,25.99,padrao,"steam,windows",pc
+33,riot points  gift card digital 50 reais,0,50.0,padrao,"windows,mac",pc
+34,enter the gungeon,0,27.99,padrao,"steam,windows,linux,mac",pc
+35,resident evil 7 biohazard gold edition,75,20.99,padrao,"steam,windows",pc
+36,resident evil village,54,63.99,padrao,"steam,windows",pc
+37,ni no kuni ii revenant kingdom  the princes edition,0,219.9,padrao,"steam,windows",pc
+38,lego harry potter years 1 4,0,89.99,padrao,"steam,windows",pc
+39,mad max,0,89.99,padrao,"steam,windows,linux,mac",pc
+40,wrc 10 fia world rally championship,0,109.99,padrao,"steam,windows",pc
+41,devil may cry hd collection,68,21.99,padrao,"steam,windows",pc
+42,sid meiers civilization v the complete edition,0,99.99,padrao,"steam,mac",pc
+43,google play r$30  gift card digital,0,30.0,padrao,android,mobile
+44,resident evil 3,76,30.49,padrao,"steam,windows",pc
+45,resident evil hd remaster,75,9.99,padrao,"steam,windows",pc
+46,gift card digital roblox r$25,0,25.0,padrao,"windows,ios,android","mobile,pc"
+47,gris,0,32.99,padrao,"steam,windows,mac",pc
+48,lego marvel super heroes,0,89.99,padrao,"steam,windows",pc
+49,resident evil 2  biohazard re2,76,20.99,padrao,"steam,windows",pc
+50,naruto shippuden ultimate ninja storm revolution,0,55.99,padrao,"steam,windows",pc
+51,dayz,0,119.99,padrao,"steam,windows",pc
+52,scribblenauts unmasked a dc comics adventures,0,36.99,padrao,"steam,windows",pc
+53,resident evil 4,12,218.99,padrao,"steam,windows",pc
+54,nintendo  gift card digital 50 reais,0,50.0,padrao,nintendo switch,nintendo
+55,devil may cry 5 + vergil,68,27.99,padrao,"steam,windows",pc
+56,dying light definitive edition,0,124.99,padrao,"steam,windows,linux,mac",pc
+57,xbox  cartao presente digital 200 reais,0,200.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+58,darkest dungeon the crimson court,0,19.99,dlc,"steam,windows,linux,mac",pc
+59,cult of the lamb,0,64.95,padrao,"steam,windows,mac",pc
+60,the last of us  part i,10,223.99,padrao,"steam,windows",pc
+61,street fighter v,75,9.99,padrao,"steam,windows",pc
+62,euro truck simulator 2,75,9.99,padrao,"steam,windows,linux",pc
+63,google play r$50  gift card digital,0,50.0,padrao,android,mobile
+64,riot points  gift card digital 100 reais,0,100.0,padrao,"windows,mac",pc
+65,nintendo  gift card digital 300 reais,0,300.0,padrao,nintendo switch,nintendo
+66,the lego ninjago movie video game,0,89.99,padrao,"steam,windows",pc
+67,naruto storm 4 road to boruto expansion,0,36.99,dlc,"steam,windows",pc
+68,middleearth shadow of mordor  game of the year edition,0,89.99,padrao,"steam,windows,linux,mac",pc
+69,dont starve together,0,27.99,padrao,"steam,windows,linux,mac",pc
+70,dragon ball z kakarot,0,159.9,padrao,"steam,windows",pc
+71,scribblenauts unlimited,0,89.99,padrao,"steam,windows",pc
+72,s.t.a.l.k.e.r. shadow of chernobyl,70,10.49,padrao,"steam,windows",pc
+73,nintendo  gift card digital 150 reais,0,150.0,padrao,nintendo switch,nintendo
+74,the legend of heroes trails in the sky the 3rd,0,55.99,padrao,"steam,windows",pc
+75,mortal kombat x,0,89.99,padrao,"steam,windows",pc
+76,rain world,0,36.99,padrao,"steam,windows",pc
+77,tales of symphonia,0,36.99,padrao,"steam,windows",pc
+78,katana zero,0,28.99,padrao,"steam,windows,mac",pc
+79,nintendo  gift card digital 100 reais,0,100.0,padrao,nintendo switch,nintendo
+80,switch on  3 meses,0,29.7,padrao,nintendo switch,nintendo
+81,secret neighbor,0,37.99,padrao,"steam,windows",pc
+82,soulcalibur vi  deluxe edition,0,259.9,padrao,"steam,windows",pc
+83,castlevania lords of shadow 2,0,72.99,padrao,"steam,windows",pc
+84,resident evil 6,75,21.24,padrao,"steam,windows",pc
+85,sid meiers civilization v brave new world,0,44.99,dlc,"steam,mac",pc
+86,lego marvel vingadores deluxe edition,0,129.99,padrao,"steam,windows",pc
+87,tom clancys rainbow six  siege  standard edition,0,59.99,padrao,windows,pc
+88,dragon ball fighterz  fighterz pass,0,89.9,dlc,"steam,windows",pc
+89,hotline miami 2 wrong number,0,24.99,padrao,"steam,windows,linux,mac",pc
+90,the legend of heroes trails in the sky,0,36.99,padrao,"steam,windows",pc
+91,castlevania lord of shadows  mirror of fate hd,0,27.99,padrao,"steam,windows",pc
+92,super mario™ 3d world + bowsers fury,0,299.0,padrao,nintendo switch,nintendo
+93,xbox  cartao presente digital 50 reais,0,50.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+94,darkest dungeon color of madness,0,10.89,dlc,"steam,windows,linux,mac",pc
+95,the legend of heroes trails of cold steel,0,72.99,padrao,"steam,windows",pc
+96,riot points  gift card digital 20 reais,0,20.0,padrao,"windows,mac",pc
+97,moonlighter,0,37.99,padrao,"steam,windows",pc
+98,darkest dungeon the shieldbreaker,0,8.69,dlc,"steam,windows,linux,mac",pc
+99,mortal kombat 11 kombat pack 1,0,59.99,dlc,"steam,windows",pc
+100,lego dc supervillains  deluxe edition,0,254.99,padrao,"steam,windows",pc
+101,frostpunk,0,88.99,padrao,"steam,windows",pc
+102,gift card digital roblox r$50,0,50.0,padrao,"windows,ios,android","mobile,pc"
+103,google play r$100  gift card digital,0,100.0,padrao,android,mobile
+104,frostpunk  season pass,0,78.02,dlc,"steam,windows",pc
+105,resident evil village gold edition,43,96.0,padrao,"steam,windows",pc
+106,tekken 7,0,129.9,padrao,"steam,windows",pc
+107,xbox  cartao presente digital 40 reais,0,40.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+108,dmc devil may cry,76,13.99,padrao,"steam,windows",pc
+109,skul the hero slayer,0,37.99,padrao,"steam,windows,linux,mac",pc
+110,xbox  cartao presente digital 25 reais,0,25.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+111,f.e.a.r. 3,0,89.99,padrao,"steam,windows",pc
+112,xbox live 12 meses  gift card digital,0,199.99,padrao,"xbox one,xbox series s x",xbox
+113,legend of kay anniversary,0,36.99,padrao,"steam,windows,mac",pc
+114,complete cossacks 3 experience,54,32.54,padrao,"steam,windows,linux",pc
+115,xbox game pass ultimate  1 mes,0,44.99,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+116,motogp 21,0,93.99,padrao,"steam,windows",pc
+117,mortal kombat xl,0,129.99,pacote,"steam,windows",pc
+118,switch on  12 meses,0,74.25,padrao,nintendo switch,nintendo
+119,google play r$15  gift card digital,0,15.0,padrao,android,mobile
+120,the universim,20,44.79,padrao,"steam,windows,linux,mac",pc
+121,crypt of the necrodancer,0,27.99,padrao,"steam,windows,linux,mac",pc
+122,dragon ball xenoverse 2,0,159.9,padrao,"steam,windows",pc
+123,elden ring,0,249.9,padrao,"steam,windows",pc
+124,quantum break,0,72.99,padrao,"steam,windows",pc
+125,mortal kombat 11 ultimate,0,279.99,padrao,"steam,windows",pc
+126,xbox  cartao presente digital 5 reais,0,5.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+127,the legend of heroes trails of cold steel ii,0,72.99,padrao,"steam,windows",pc
+128,lego harry potter years 57,0,89.99,padrao,"steam,windows",pc
+129,castlevania lords of shadow  ultimate edition,0,49.99,padrao,"steam,windows",pc
+130,the legend of heroes trails in the sky sc,0,69.99,padrao,"steam,windows",pc
+131,resident evil revelations,77,13.79,padrao,"steam,windows",pc
+132,lego the lord of the rings,0,89.99,padrao,"steam,windows",pc
+133,dragons dogma dark arisen,84,11.99,padrao,"steam,windows",pc
+134,hotline miami,0,16.99,padrao,"steam,windows,linux,mac",pc
+135,lego city undercover,0,89.99,padrao,"steam,windows",pc
+136,nintendo  gift card digital 250 reais,0,250.0,padrao,nintendo switch,nintendo
+137,metal gear solid v ground zeroes,0,36.99,padrao,"steam,windows",pc
+138,hotline miami 2 wrong number  digital special edition,0,34.99,padrao,"steam,windows,linux,mac",pc
+139,gta online great white shark cash card,0,35.99,padrao,windows,pc
+140,for the king double keys,0,75.98,padrao,"steam,windows,mac",pc
+141,ultra street fighter iv,87,7.79,padrao,"steam,windows",pc
+142,devil may cry 4 ediçao especial,72,13.99,padrao,"steam,windows",pc
+143,pro cycling manager 2022,0,75.49,padrao,"steam,windows",pc
+144,titan souls collectors edition,0,34.99,padrao,"steam,windows,mac",pc
+145,super mario odyssey™,0,299.0,padrao,nintendo switch,nintendo
+146,ravenswatch,0,59.99,padrao,"steam,windows",pc
+147,ultimate marvel vs. capcom 3,70,16.49,padrao,"steam,windows",pc
+148,xbox  cartao presente digital 60 reais,0,60.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+149,broforce,0,24.99,padrao,"steam,windows,mac",pc
+150,star wars the force unleashed ii,0,37.99,padrao,"steam,windows",pc
+151,dragon ball z kakarot  deluxe edition,0,249.9,padrao,"steam,windows",pc
+152,rollercoaster tycoon 3 complete edition,0,37.99,padrao,"steam,windows",pc
+153,euro truck simulator 2  brazilian paint jobs pack,71,0.72,dlc,"steam,windows,linux",pc
+154,gift card digital roblox r$100,0,100.0,padrao,"windows,ios,android","mobile,pc"
+155,devil may cry 3  special edition,75,9.99,padrao,"steam,windows",pc
+156,far cry 6,0,249.99,padrao,windows,pc
+157,tales of vesperia definitive edition,0,139.9,padrao,"steam,windows",pc
+158,xbox  cartao presente digital 20 reais,0,20.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+159,monster hunter world iceborne master edition,51,62.99,padrao,"steam,windows",pc
+160,lego batman,0,89.99,padrao,"steam,windows",pc
+161,naruto shippuden ultimate ninja storm 4  season pass,0,49.9,dlc,"steam,windows",pc
+162,call of juarez 2 bound in blood,0,19.99,padrao,"steam,windows",pc
+163,batman arkham collection,0,279.99,padrao,"steam,windows",pc
+164,enslaved odyssey to the west premium edition,0,34.99,padrao,"steam,windows",pc
+165,the last campfire,0,28.99,padrao,"steam,windows",pc
+166,lego batman 2 dc super heroes,0,89.99,padrao,"steam,windows",pc
+167,ni no kuni ii revenant kingdom  season pass,0,59.9,dlc,"steam,windows",pc
+168,enigma do medo,9,49.99,prevenda,"steam,windows",pc
+169,star wars  the force unleashed ultimate sith edition,0,37.99,padrao,"steam,windows",pc
+170,assassins creed valhalla,0,199.99,padrao,windows,pc
+171,castlevania lords of shadow 2  revelations,0,15.99,dlc,"steam,windows",pc
+172,naruto shippuden ultimate ninja storm legacy,0,217.99,padrao,"steam,windows",pc
+173,shovel knight pocket dungeon,0,37.99,padrao,"steam,windows,mac",pc
+174,euro truck simulator 2  italia,75,11.24,dlc,"steam,windows,linux,mac",pc
+175,mega man x legacy collection 2,60,15.99,padrao,"steam,windows",pc
+176,titan souls,0,24.99,padrao,"steam,windows,mac",pc
+177,destiny 2 lightfall,39,90.44,dlc,"steam,windows",pc
+178,dragon ball fighterz  fighterz edition,0,239.9,padrao,"steam,windows",pc
+179,metal gear rising  revengeance,0,49.99,padrao,"steam,windows",pc
+180,xbox  cartao presente digital 15 reais,0,15.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+181,warhammer chaosbane  slayer edition,0,75.49,padrao,"steam,windows",pc
+182,xbox  cartao presente digital 70 reais,0,70.0,padrao,"windows,xbox one,xbox series s x","xbox,pc"
+183,sid meiers civilization vi  platinum edition,0,161.2,padrao,"steam,windows",pc
