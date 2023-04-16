@@ -31,13 +31,13 @@ class PromocoesJogosSpider(scrapy.Spider):
                 sistema.append("mac")
 
             if  jogo.css(".product-card--grid .icon-nintendoswitch").get() != None:
-                sistema.append("nintendo switch")
+                sistema.append("nintendo")
 
-            if  jogo.css(".product-card--grid .icon-xboxone").get() != None:
-                sistema.append("xbox one")
+            if  jogo.css(".product-card--grid .icon-microsoft").get() != None:
+                sistema.append("xbox")
 
-            if  jogo.css(".product-card--grid .icon-xboxseriessx").get() != None:
-                sistema.append("xbox series s x")
+            if  jogo.css(".product-card--grid .icon-playstationstore").get() != None:
+                sistema.append("playstation")
 
             if  jogo.css(".product-card--grid .icon-ios").get() != None:
                 sistema.append("ios")
@@ -45,20 +45,14 @@ class PromocoesJogosSpider(scrapy.Spider):
             if  jogo.css(".product-card--grid .icon-android").get() != None:
                 sistema.append("android")
 
-            if  jogo.css(".product-card--grid .icon-nintendoswitch").get() != None:
-                plataforma.append("nintendo")
+            if  jogo.css(".product-card--grid .icon-steam").get() != None or jogo.css(".product-card--grid .icon-windows").get() != None or jogo.css(".product-card--grid .icon-linux").get() != None or jogo.css(".product-card--grid .icon-mac").get() != None:
+                plataforma.append("pc")
 
-            if  jogo.css(".product-card--grid .icon-microsoft").get() != None:
-                plataforma.append("xbox")
-
-            if  jogo.css(".product-card--grid .icon-playstationstore").get() != None:
-                plataforma.append("playstation")
+            if  jogo.css(".product-card--grid .icon-nintendoswitch").get() != None or jogo.css(".product-card--grid .icon-microsoft").get() != None or jogo.css(".product-card--grid .icon-playstationstore").get() != None:
+                plataforma.append("console")
 
             if  jogo.css(".product-card--grid .icon-android").get() != None or jogo.css(".product-card--grid .icon-ios").get() != None:
                 plataforma.append("mobile")
-
-            if  jogo.css(".product-card--grid .icon-steam").get() != None or jogo.css(".product-card--grid .icon-windows").get() != None or jogo.css(".product-card--grid .icon-linux").get() != None or jogo.css(".product-card--grid .icon-mac").get() != None:
-                plataforma.append("pc")
 
             preco = f"{moeda}{inteiro}{decimal}" if (moeda != None and inteiro != None and decimal != None) else "Indisponivel"
             yield {
