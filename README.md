@@ -11,6 +11,7 @@ pip install -r requirements.txt
 - streamlit
 - pandas
 - plotly
+<br>
 Além disso, é necessário ter o arquivo `base_tratada.csv` na pasta `2_bases_tratadas` do repositório `web-mining-03` e colocá-lo na mesma pasta que o código.
 
 
