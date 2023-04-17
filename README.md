@@ -1,4 +1,4 @@
-# Nuuvem Database
+# Nuuvem Database ☁
 Este é um projeto criado para a disciplina de Web Mining da faculdade Impacta. O objetivo do projeto é criar uma interface que permita ao usuário filtrar jogos da plataforma Nuuvem por nome, plataforma, preço, sistema operacional e categoria.
 
 ## Instalação
@@ -28,7 +28,7 @@ Isso abrirá a aplicação em uma nova aba do navegador.
 Ao executar a aplicação, o usuário verá uma barra lateral à esquerda com os seguintes filtros:
 
 - Busca por nome ou palavra-chave
--- Plataforma (PC, Console ou Mobile)
+- Plataforma (PC, Console ou Mobile)
 - Intervalo de preço
 - Sistema operacional (disponível apenas para PC, Console e Mobile)
 Ao selecionar os filtros desejados, a tabela de jogos e os gráficos serão atualizados automaticamente.
