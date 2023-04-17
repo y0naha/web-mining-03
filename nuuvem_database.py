@@ -4,7 +4,7 @@ from datetime import date
 import plotly.express as px
 
 # Filtragem e carregamento da base de dados
-df = pd.read_csv('../2_bases_tratadas/base_tratada.csv', delimiter=',')
+df = pd.read_csv('2_bases_tratadas/base_tratada.csv', delimiter=',')
 df = df.drop(df.columns[0], axis=1)
 df.rename(columns={'nome': 'Nome do jogo', 'porcentagem_desconto':'Desconto (%)', 'preco':'Preço (R$)', 'tipo':'Categoria', 'sistema':'Sistema', 'plataforma':'Plataforma'}, inplace=True)
 
