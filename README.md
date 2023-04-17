@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Além disso, é necessário ter o arquivo `base_tratada.csv` na pasta `2_bases_tratadas` do repositório `web-mining-03` e colocá-lo na mesma pasta que o código.
 
 
-# Como executar
+## Como executar
 Para executar o código, basta abrir o terminal, navegar até a pasta que contém o arquivo e executar o seguinte comando:
 
 
