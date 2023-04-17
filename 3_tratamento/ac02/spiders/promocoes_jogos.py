@@ -6,7 +6,7 @@ class PromocoesJogosSpider(scrapy.Spider):
 
     start_urls = []
     url_base = "https://www.nuuvem.com/br-pt/catalog/sort/bestselling/sort-mode/desc/"
-    num_pages = 10
+    num_pages = 30
     for i in range(1,num_pages+1,1):
         start_urls.append(f"{url_base}/page/{i}")
 
@@ -15,8 +15,8 @@ class PromocoesJogosSpider(scrapy.Spider):
             moeda = jogo.css(".product-card--grid .currency-symbol::text").get()
             inteiro = jogo.css(".product-card--grid .integer::text").get()
             decimal = jogo.css(".product-card--grid .decimal::text").get()
-            sistema = [] 
             plataforma = []
+            sistema = [] 
 
             if  jogo.css(".product-card--grid .icon-steam").get() != None:
                 sistema.append("steam")
@@ -60,7 +60,7 @@ class PromocoesJogosSpider(scrapy.Spider):
                 "porcentagem_desconto": jogo.css('.product-card--grid .product-price--discount::text').get() or "0",
                 "preço": preco,
                 "tipo": jogo.css('.product-card--grid .product-badge__preorder::text').get() or jogo.css('.product-card--grid .product-badge__dlc::text').get() or jogo.css('.product-card--grid .product-badge__package::text').get() or "Padrão",
-                "sistema": sistema,
-                "plataforma": plataforma
+                "plataforma": plataforma,
+                "sistema": sistema
             }
         pass
