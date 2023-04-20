@@ -16,6 +16,21 @@ pip install -r requirements.txt
 
 Além disso, é necessário ter o arquivo `base_tratada.csv` na pasta `2_bases_tratadas` do repositório `web-mining-03` e colocá-lo na mesma pasta que o código.
 
+Para realizar isso segue os comandos:
+
+```
+ cd 3_tratamento/ac02/
+```
+
+```
+scrapy crawl promocoes-jogos -O ../../1_bases_originais/original.csv
+```
+
+Agora temos a base récem extraída pelo scrapy, agora vamos trata-lá:
+
+Vá ao arquivo `preparacao_dos_dados_esqueleto_v2.ipynb` e execute tudo:
+
+Pronto! Agora temos a base tratada pronta para o próximo passo:
 
 ## Como executar
 Para executar o código, basta abrir o terminal, navegar até a pasta que contém o arquivo e executar o seguinte comando:
