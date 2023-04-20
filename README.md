@@ -30,7 +30,9 @@ Agora temos a base récem extraída pelo scrapy, agora vamos trata-lá:
 
 Vá ao arquivo `preparacao_dos_dados_esqueleto_v2.ipynb` e execute tudo:
 
-Pronto! Agora temos a base tratada pronta para o próximo passo:
+![Screenshot_1241](https://user-images.githubusercontent.com/65693484/233505816-ec3d135d-990a-447f-82aa-2a12134b4f24.png)
+
+Pronto! Agora temos a base tratada pronta para o próximo passo.
 
 ## Como executar
 Para executar o código, basta abrir o terminal, navegar até a pasta que contém o arquivo e executar o seguinte comando:
