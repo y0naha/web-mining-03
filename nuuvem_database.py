@@ -55,16 +55,20 @@ st.write(
     '''
 )
 
-pd.set_option('display.max_colwidth', None)
-st.write(df_filtrado)
+# Verificar se há resultados de pesquisa
+if df_filtrado.empty:
+    st.error('Nenhum jogo encontrado com essa palavra-chave ou seleção.')
+else:
+    pd.set_option('display.max_colwidth', None)
+    st.write(df_filtrado)
 
-df_filtrado_por_categoria = df_filtrado.groupby('Categoria').count().reset_index()
-fig = px.pie(df_filtrado_por_categoria, values='Nome do jogo', names='Categoria', title='Distribuição dos jogos por categoria')
-st.plotly_chart(fig)
+    df_filtrado_por_categoria = df_filtrado.groupby('Categoria').count().reset_index()
+    fig = px.pie(df_filtrado_por_categoria, values='Nome do jogo', names='Categoria', title='Distribuição dos jogos por categoria')
+    st.plotly_chart(fig)
 
-fig = px.scatter(df_filtrado, x="Preço (R$)", y="Desconto (%)", color="Categoria", title="Preço x Desconto")
-st.plotly_chart(fig)
+    fig = px.scatter(df_filtrado, x="Preço (R$)", y="Desconto (%)", color="Categoria", title="Preço x Desconto")
+    st.plotly_chart(fig)
 
-fig = px.histogram(df_filtrado, x="Sistema", title="Número de jogos por sistema")
-st.plotly_chart(fig)
+    fig = px.histogram(df_filtrado, x="Sistema", title="Número de jogos por sistema")
+    st.plotly_chart(fig)
 # Fim do index
