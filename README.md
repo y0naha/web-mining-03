@@ -19,7 +19,7 @@ Além disso, é necessário ter o arquivo `base_tratada.csv` na pasta `2_bases_t
 Para realizar isso segue os comandos:
 
 ```
- cd 3_tratamento/ac02/
+cd 3_tratamento/ac02/
 ```
 
 ```
