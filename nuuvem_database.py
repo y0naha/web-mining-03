@@ -4,6 +4,9 @@ from datetime import date
 import plotly.express as px
 import numpy as np
 
+# Nome: Larissa Ionafa
+# RA: 1903166
+
 # Filtragem e carregamento da base de dados
 df = pd.read_csv('2_bases_tratadas/base_tratada.csv', delimiter=',')
 df = df.drop(df.columns[0], axis=1)
