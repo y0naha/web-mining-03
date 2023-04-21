@@ -18,7 +18,7 @@ st.sidebar.caption("Veja o código base deste projeto [aqui](https://github.com/
 st.sidebar.markdown("---")
 
 
-palavra_chave = st.sidebar.text_input('Buscar o nome do jogo ou palavra-chave:')
+palavra_chave = st.sidebar.text_input('Buscar o Nome do jogo ou palavra-chave:')
 
 
 if palavra_chave:
@@ -175,13 +175,17 @@ else:
 # Fim dos gráficos plotly
 # Inicio dos gráficos streamlit
 
-    st.subheader('Preço médio por categoria')
-    st.area_chart(df_filtrado.groupby('Categoria')['Preço (R$)'].mean())
+    preco_original = df_filtrado['Preço (R$)'] / (100 - df_filtrado['Desconto (%)']) * 100
+    st.subheader('Preço original x Preço com desconto')
+    st.line_chart(pd.DataFrame({'Preço Original': preco_original, 'Preço com Desconto': df_filtrado['Preço (R$)']}))
+    st.markdown(
+    f"""
+    Este gráfico de linhas representa a comparação entre o preço original com o preço com o desconto, sendo o `eixo Y` representando o `Preço (R$)` e o `eixo X` representando o index de cada `Jogo`
+    """,
+    unsafe_allow_html=True
+    )
 
-    st.subheader('Desconto médio por categoria')
-    st.line_chart(df_filtrado.groupby('Categoria')['Desconto (%)'].mean())
-
-# FIm dos gráficos streamlit
+# Fim dos gráficos streamlit
 st.write(
 '''
 ***Tabela geral***
