@@ -76,10 +76,10 @@ else:
     fig = px.box(df_filtrado, x="Preço (R$)", y="Categoria", title="Bloxplot das categorias relacionados à preço")
     st.plotly_chart(fig)
 
-    st.write(
-    '''
-    ***Tabela geral***
-    '''
+st.write(
+'''
+***Tabela geral***
+'''
 )
 
 pd.set_option('display.max_colwidth', None)
