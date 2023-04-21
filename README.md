@@ -11,6 +11,8 @@ pip install -r requirements.txt
 - streamlit
 - pandas
 - plotly
+- numpy
+- jupyter
 
 <br>
 
