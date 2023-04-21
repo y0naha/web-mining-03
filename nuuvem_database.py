@@ -63,6 +63,7 @@ else:
     st.markdown('Esta tabela é resultado dos filtros utilizados do menu:')
     pd.set_option('display.max_colwidth', None)
     st.write(df_filtrado)
+    # Inicio dos gráficos plotly
 
     # calcula a porcentagem da maior e menor categoria
     df_filtrado_por_categoria = df_filtrado.groupby(['Plataforma', 'Categoria']).count().reset_index()[['Plataforma', 'Categoria', 'Nome do jogo']]
@@ -148,7 +149,7 @@ else:
     outliers = df_filtrado[(df_filtrado['Preço (R$)'] < (Q1 - 1.5 * IQR)) | (df_filtrado['Preço (R$)'] > (Q3 + 1.5 * IQR))]
     num_outliers = len(outliers)
 
-    fig = px.box(df_filtrado, x="Preço (R$)", y="Categoria", title="Bloxplot das categorias relacionados ao preço")
+    fig = px.box(df_filtrado, x="Preço (R$)", y="Categoria", color="Categoria", title="Bloxplot das categorias relacionados ao preço")
     st.plotly_chart(fig)
     if num_outliers != 0:
             st.markdown(
@@ -169,6 +170,16 @@ else:
             )
             st.error("Não existe outliers neste bloxplot")
 
+# Fim dos gráficos plotly
+# Inicio dos gráficos streamlit
+
+    st.subheader('Preço médio por categoria')
+    st.area_chart(df_filtrado.groupby('Categoria')['Preço (R$)'].mean())
+
+    st.subheader('Desconto médio por categoria')
+    st.line_chart(df_filtrado.groupby('Categoria')['Desconto (%)'].mean())
+
+# FIm dos gráficos streamlit
 st.write(
 '''
 ***Tabela geral***
