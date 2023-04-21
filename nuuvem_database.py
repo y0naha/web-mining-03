@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 import plotly.express as px
+import numpy as np
 
 # Filtragem e carregamento da base de dados
 df = pd.read_csv('2_bases_tratadas/base_tratada.csv', delimiter=',')
@@ -35,27 +36,27 @@ else:
         sistema = st.sidebar.selectbox('Selecione o sistema:', ['Nintendo', 'Playstation', 'Xbox'])
         sistema = sistema.lower()
         df_filtrado = df_filtrado.loc[df_filtrado['Sistema'].str.contains(sistema)]
+        st.info('Com exceção da Nintendo, aos demais sistemas são disponibilizados apenas créditos para a loja virtual da plataforma.', icon="ℹ️")
     else:
         preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=100.0)
         df_filtrado = df[(df['Preço (R$)'] >= preco_min) & (df['Preço (R$)'] <= preco_max) & (df['Plataforma'] == 'mobile')]
         sistema = st.sidebar.selectbox('Selecione o sistema:', ['Android', 'iOS'])
         sistema = sistema.lower()
         df_filtrado = df_filtrado.loc[df_filtrado['Sistema'].str.contains(sistema)]
+        st.info('São disponibilizados apenas créditos para a loja virtual da plataforma.', icon="ℹ️")
 
 st.sidebar.markdown("---")
 
 st.sidebar.write(f"Made in <img src='https://streamlit.io/images/brand/streamlit-mark-color.png' width='25px'> by [Larissa Ionafa](https://www.linkedin.com/in/larissa-ionafa/)", unsafe_allow_html=True)
-
 # Fim da sidebar
 
 # Inicio do index
 st.write(
     '''
-    ***Tabela geral da Nuuvem***
+    ***Tabela filtrada***
     '''
 )
 
-# Verificar se há resultados de pesquisa
 if df_filtrado.empty:
     st.error('Nenhum jogo encontrado com essa palavra-chave ou seleção.')
 else:
@@ -71,4 +72,16 @@ else:
 
     fig = px.histogram(df_filtrado, x="Sistema", title="Número de jogos por sistema")
     st.plotly_chart(fig)
+
+    fig = px.box(df_filtrado, x="Preço (R$)", y="Categoria", title="Bloxplot das categorias relacionados à preço")
+    st.plotly_chart(fig)
+
+    st.write(
+    '''
+    ***Tabela geral***
+    '''
+)
+
+pd.set_option('display.max_colwidth', None)
+st.write(df)
 # Fim do index
