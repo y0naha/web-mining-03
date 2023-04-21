@@ -63,7 +63,6 @@ else:
     st.markdown('Esta tabela é resultado dos filtros utilizados do menu:')
     pd.set_option('display.max_colwidth', None)
     st.write(df_filtrado)
-    st.warning('Dica: Ao selecionar a coluna ela já é filtrada por ordem', icon="💡")
 
     # calcula a porcentagem da maior e menor categoria
     df_filtrado_por_categoria = df_filtrado.groupby(['Plataforma', 'Categoria']).count().reset_index()[['Plataforma', 'Categoria', 'Nome do jogo']]
@@ -178,4 +177,5 @@ st.write(
 
 pd.set_option('display.max_colwidth', None)
 st.write(df)
+st.warning('Dica: Ao selecionar a coluna, ela já é filtrada por ordem', icon="💡")
 # Fim do index
