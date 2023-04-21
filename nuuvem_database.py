@@ -25,20 +25,20 @@ else:
     plataforma = st.sidebar.selectbox('Selecione a plataforma:', ['PC', 'Console', 'Mobile'])
 
     if plataforma == 'PC':
-        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=100.0)
+        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=0.1)
         df_filtrado = df[(df['Preço (R$)'] >= preco_min) & (df['Preço (R$)'] <= preco_max) & (df['Plataforma'] == 'pc')]
         sistema = st.sidebar.selectbox('Selecione o sistema:', ['Steam','Windows', 'Mac', 'Linux'])
         sistema = sistema.lower()
         df_filtrado = df_filtrado.loc[df_filtrado['Sistema'].str.contains(sistema)]
     elif plataforma == 'Console':
-        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=100.0)
+        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=0.1)
         df_filtrado = df[(df['Preço (R$)'] >= preco_min) & (df['Preço (R$)'] <= preco_max) & (df['Plataforma'] == 'console')]
         sistema = st.sidebar.selectbox('Selecione o sistema:', ['Nintendo', 'Playstation', 'Xbox'])
         sistema = sistema.lower()
         df_filtrado = df_filtrado.loc[df_filtrado['Sistema'].str.contains(sistema)]
         st.info('Com exceção da Nintendo, aos demais sistemas são disponibilizados apenas créditos para a loja virtual da plataforma.', icon="ℹ️")
     else:
-        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=100.0)
+        preco_min, preco_max = st.sidebar.slider('Selecione o intervalo de preço:', float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max()), (float(df['Preço (R$)'].min()), float(df['Preço (R$)'].max())), step=0.1)
         df_filtrado = df[(df['Preço (R$)'] >= preco_min) & (df['Preço (R$)'] <= preco_max) & (df['Plataforma'] == 'mobile')]
         sistema = st.sidebar.selectbox('Selecione o sistema:', ['Android', 'iOS'])
         sistema = sistema.lower()
@@ -60,6 +60,7 @@ st.write(
 if df_filtrado.empty:
     st.error('Nenhum jogo encontrado com essa palavra-chave ou seleção.')
 else:
+    st.markdown('Esta tabela é resultado dos filtros utilizados do menu:')
     pd.set_option('display.max_colwidth', None)
     st.write(df_filtrado)
 
